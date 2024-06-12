@@ -1,0 +1,9 @@
+CREATE TABLE `germano_fly`.`usuarios_flying` (
+  `idusuarios_flying` INT NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`idusuarios_flying`));
+
+ALTER TABLE `germano_fly`.`usuarios_flying` 
+ADD COLUMN `nome_completo` VARCHAR(255) NULL AFTER `idusuarios_flying`,
+ADD COLUMN `email` VARCHAR(255) NULL AFTER `nome_completo`,
+ADD COLUMN `idade` VARCHAR(255) NULL AFTER `email`,
+ADD COLUMN `experiencia` VARCHAR(255) NULL AFTER `idade`;
