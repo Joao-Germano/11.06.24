@@ -1,0 +1,7 @@
+INSERT INTO `germano_fly`.`usuarios_flying` (`idusuarios_flying`, `nome_completo`, `email`, `idade`, `experiencia`) VALUES ('3', ' jeremias santos ', 'js', '30', 'sim');
+INSERT INTO `germano_fly`.`usuarios_flying` (`idusuarios_flying`, `nome_completo`, `email`, `idade`, `experiencia`) VALUES ('3', 'cleber souza', 'cleber', '33', 'sim');
+INSERT INTO `germano_fly`.`usuarios_flying` (`idusuarios_flying`, `nome_completo`, `email`, `idade`, `experiencia`) VALUES ('3', 'anderson pereira', 'pereira', '20', 'nao');
+
+UPDATE `germano_fly`.`usuarios_flying` SET `idade` = '33' WHERE (`idusuarios_flying` = '2');
+
+DELETE FROM `germano_fly`.`usuarios_flying` WHERE (`idusuarios_flying` = '3');
